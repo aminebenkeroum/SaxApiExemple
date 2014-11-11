@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<arbre xmlns="http://www.megginson.com/ns/exp/poetry">
+	<personnes>
+		<personne idp="34" sexe="Masculin" age="20">
+			<nom>BNEKEROUM</nom>
+			<prenom>Amine</prenom>
+			<photo date_photo="1995-10-07">profile.png</photo>
+			<ddn date="1992-10-07" ville="Casablanca" />
+			<statut-familial>
+				<Marier>
+					<!-- le nombre des femmes accepte la duplication dans ce cas (4 Femmes)-->
+					<epouse idFemme="..." idEpoux="id_reference">
+					     <date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+				</Marier>
+			</statut-familial>
+			<descendant>
+					<!-- le nombre des descendant vas changer selon le besoin -->
+					<prenom_des></prenom_des>
+					<prenom_des></prenom_des>
+					<prenom_des></prenom_des>
+			</descendant>
+				
+			<deces date="...." ville="..." />
+		</personne>
+	</personnes>	
+</arbre>
+	

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<arbre xmlns="http://www.fssm.uca.ma/saxApi">
+	<personnes>
+		<personne idp="..." sexe=".." age="...">
+			<nom>...</nom>
+			<prenom>...</prenom>
+			<photo date_photo=".."></photo>
+			<ddn date="..." ville="..." />
+			<statut-familial>
+				<Marier>
+					<!-- le nombre des femmes accepte la duplication dans ce cas (4 Femmes)-->
+					<epouse idFemme="..." idEpoux="id_reference">
+					     <date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+					<epouse idFemme="..." idEpoux="id_reference">
+						<date date_marriage="...."/>
+					</epouse>
+				</Marier>
+			</statut-familial>
+			<descendant>
+					<!-- le nombre des descendant vas changer selon le besoin -->
+					<prenom_des></prenom_des>
+					<prenom_des></prenom_des>
+					<prenom_des></prenom_des>
+			</descendant>
+				
+			<deces date="...." ville="..." />
+		</personne>
+	</personnes>	
+</arbre>
+	
